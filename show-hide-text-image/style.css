@@ -1,0 +1,29 @@
+.container{
+    width: 400px;
+    border-width: 10px;
+    border-color: black;
+}
+
+.image {
+    width: 400px;
+    height: 267px;
+    background: url("images/osterkorb-small.jpg") no-repeat;
+    display: inline-block;
+
+}
+.image:hover{
+    background: url("images/chicks-small.jpg") no-repeat;
+    opacity: 1;
+}
+
+.tenor{
+    opacity: 0;
+}
+
+.container:hover .tenor{
+    opacity: 1;
+}
+.text{
+    width: 400px;
+}
+
