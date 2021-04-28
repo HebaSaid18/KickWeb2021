@@ -1,0 +1,361 @@
+#container > div {
+    margin: 10px;
+    float: left;
+}
+#letter-a {
+    position: relative;
+    width: 30px;
+    height: 40px;
+    background: white;
+    border-radius: 10px 10px 0 0;
+    border-style: solid;
+    border-color: red red transparent red;
+    border-width: 10px 10px 0 10px;
+}
+
+#letter-a::before {
+    content: "";
+    position: absolute;
+    top: 10px;
+    height: 10px;
+    width: 30px;
+    background: red;
+}
+
+#letter-b {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    border-width: 10px 10px 10px  10px;
+    border-style: solid;
+    border-color: transparent transparent transparent red;
+    background: transparent;
+}
+
+#letter-b::before {
+    content: "";
+    position: absolute;
+    left: -10px;
+    top: -10px;
+    height: 10px;
+    width: 30px;
+    background: transparent;
+    border-radius: 0 12.5px 12.5px 0;
+    border: 10px solid red;
+}
+
+#letter-b::after {
+    content: "";
+    position: absolute;
+    left: -10px;
+    bottom: -10px;
+    height: 10px;
+    width: 30px;
+    background: transparent;
+    border-radius: 0 12.5px 12.5px 0;
+    border: 10px solid red;
+}
+
+#letter-c {
+    position: relative;
+    width: 40px;
+    height: 30px;
+    border-width: 10px 0 10px 10px;
+    border-style: solid;
+    border-color: red transparent red red;
+    background-color: transparent;
+    border-radius: 10px;
+}
+
+#letter-e {
+    position: relative;
+    width: 40px;
+    height: 30px;
+    border-width: 10px 0 10px 10px;
+    border-style: solid;
+    border-color: red;
+}
+
+#letter-e::before {
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: 0;
+    width: 40px;
+    height: 10px;
+    background: red;
+}
+
+#letter-f {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    border-width: 10px 0 0 10px;
+    border-style: solid;
+    border-color: red red red red;
+}
+
+#letter-f::before {
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 10px;
+    left: 0;
+    top: 10px;
+    background: red;
+}
+
+#letter-g {
+    position: relative;
+    width: 40px;
+    height: 30px;
+    border-width: 10px 0 10px 10px;
+    border-style: solid;
+    border-color: red transparent red red;
+    background-color: transparent;
+    border-radius: 10px;
+}
+
+#letter-g::before {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: -10px;
+    width: 10px;
+    height: 10px;
+    border-width: 10px 10px 10px 0;
+    border-color: red;
+    border-style: solid;
+    border-radius: 0 10px 10px 0;
+}
+
+#letter-h {
+    position: relative;
+    width: 30px;
+    height: 50px;
+    border-width: 0 10px 0 10px;
+    border-style: solid;
+    border-color: red
+}
+
+#letter-h::before {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 10px;
+    left: 0;
+    top: 20px;
+    background: red;
+}
+
+#letter-i {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    border-width: 10px 0 10px 0;
+    border-style: solid;
+    border-color: red;
+}
+
+#letter-i::before {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 30px;
+    background: red;
+    left: 10px;
+}
+
+#letter-j {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    border-style: solid;
+    border-color: red;
+    border-width: 0 10px 10px 0;
+    border-radius: 0 0 10px 10px;
+    
+}
+
+#letter-j::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: left;
+    width: 10px;
+    height: 10px;
+    background: red;
+}
+
+#letter-k {
+    position: relative;
+    width: 40px;
+    height: 50px;
+    border-style: solid;
+    border-color: red;
+    border-width: 0 0 0 10px;
+    overflow: hidden
+}
+
+#letter-k::before {
+    content: "";
+    position: absolute;
+    top: -19px;
+    left: 9px;
+    width: 10px;
+    height: 70px;
+    left: 10px;
+    background: red;
+    transform: rotate(50deg);
+}
+
+#letter-k::after {
+    content: "";
+    position: absolute;
+    top: 15px;
+    right: 14px;
+    width: 10px;
+    height: 43px;
+    background: red;
+    transform: rotate(-40deg);
+}
+
+#letter-l {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    border-width: 0 0 10px 10px;
+    border-style: solid;
+    border-color: red;
+}
+
+#letter-m {
+    position: relative;
+    width: 30px;
+    height: 50px;
+    border-style: solid;
+    border-color: red;
+    border-width: 0 10px 0 10px;
+}
+
+#letter-m::before {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 30px;
+    background: red;
+    left: 2px;
+    transform: rotate(-45deg);
+}
+#letter-m::after {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 30px;
+    background: red;
+    right: 2px;
+    transform: rotate(45deg);
+}
+
+#letter-n {
+    position: relative;
+    height: 50px;
+    width: 30px;
+    border-style: solid;
+    border-color: red;
+    border-width: 0 10px 0 10px;
+}
+
+#letter-n::before {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 58px;
+    transform-origin: 5px 14px 0;
+    transform: rotate(-43deg);
+    background: red;
+}
+
+#letter-o {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    border: 10px solid red;
+}
+
+#letter-p {
+    position: relative;
+    width: 40px;
+    height: 50px;
+    border-width: 0 0 0 10px;
+    border-style: solid;
+    border-color: red;
+}
+
+#letter-p::before {
+    content: "";
+    position: absolute;
+    left: -10px;
+    height: 10px;
+    width: 30px;
+    border-radius: 0 12.5px 12.5px 0;
+    border: 10px solid red;
+}
+
+#letter-q {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    border: 10px solid red;
+}
+
+#letter-q::before {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 30px;
+    background: red;
+    bottom: -15px;
+    right: -5px;
+    transform: rotate(-45deg);
+}
+
+#letter-r {
+    position: relative;
+    
+}
+#letter-r {
+    position: relative;
+    width: 40px;
+    height: 50px;
+    border-width: 0 0 0 10px;
+    border-style: solid;
+    border-color: red;
+}
+
+#letter-r::before {
+    content: "";
+    position: absolute;
+    left: -10px;
+    top: 0px;
+    height: 10px;
+    width: 30px;
+    background: transparent;
+    border-radius: 0 12.5px 12.5px 0;
+    border: 10px solid red;
+}
+
+#letter-r::after {
+    content: "";
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    height: 20px;
+    width: 30px;
+    border-radius: 0 12.5px 0 0;
+    border-color: red;
+    border-style: solid;
+    border-width: 10px 10px 0 0;
+}

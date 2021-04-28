@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap');
+
+body {
+    margin-top: 0;
+    font-family: 'Roboto', sans-serif;
+}
+div.flex-container {
+    display: flex;
+    background-color:gold;
+    flex-direction: column;
+    align-content: space-between;
+    width: 700px;
+    height: 880px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flex-container > div {
+    width: 85%;
+}
+
+div.text1 {
+    position: relative;
+    font-weight: 500;
+    height: 50px;
+    right: 4px;
+}
+
+/* div.maxbill{
+    width: 500px;
+    text-align: right;
+    border: 1px solid black;
+    font: stretch 300%;;
+} */
+
+div.text1 > div {
+    position: absolute;
+    bottom: 0;
+    right: 2px;
+}
+div.black {
+    background-color: black;
+    height: 100px;
+}
+
+div.dot {
+    width: 100px;
+    float: left;
+    height: 100px;
+    background-color: black;
+}
+
+div.body {
+    width: 70%;
+    float: right;
+    height: 100px;
+    background-color: black;
+}
+
+div.text2{
+    position: relative;
+    height: 300px;
+}
+
+div.address {
+    position: relative;
+    float: left;
+    width: 300px;
+    font-weight: 500;
+    font-size: .5em;
+    left: 7px;
+    top: 4px;
+}
+
+div.oval {
+    height: 303px;
+    width: 425px;
+    background-color: #000;
+    position: absolute;
+    right: -10px;
+    bottom: -50px;
+    border-radius: 47%;
+}
+
+div.oval::before{
+    content: '';
+    height: 165px;
+    width: 240px;
+    background-color: gold;
+    position: absolute;
+    left: 93px;
+    bottom: 43px;
+    border-radius: 45.5%;
+}
+
+div.date{
+    position: relative;
+    font-weight: 500;
+    height: 100px;
+    left: 7px;
+}
