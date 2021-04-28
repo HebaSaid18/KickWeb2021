@@ -25,26 +25,19 @@ div.header{
 
 div.left{
     /* border: 1px solid black; */
-    width: 100%;
-    /* width: 50%;
-    text-align: center;
-    margin-left: 75px; */
+    width: 90%;
+    margin: auto; /*this is used to put the whole div element in the center*/
 }
 div.center{
     /* border: 1px solid black; */
-    width: 100%;
+    width: 90%;
     text-align: center;
-    /* margin: auto;
-    width: 50%;
-    text-align: center; */
+    margin: auto; 
 }
 div.right{
     /* border: 1px solid black; */
-    width: 100%;
+    width: 90%;
     text-align: right;
-    /* float: right;  this is used to align the whole div element to the right*/
-    /* margin-left: auto;
-    margin-right: 75px;
-    width: 50%;
-    text-align: center; */
+    /* float: right;  this is used to align the whole div element to the right */
+    margin: auto;
 }
